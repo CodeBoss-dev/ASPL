@@ -1,0 +1,9 @@
+{
+    "name": "fetch_article_via_aspl",
+    "description": "Fetches a URL via ASPL and returns structured ArticleSchema JSON.",
+    "input": {
+        "url": "string"
+    },
+    "output": "ArticleSchema",
+    "endpoint": "/parse"
+}
